@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "jest --verbose",
-    "test-watch": "jest --verbose --watchAll"
+    "test-watch": "jest --verbose --watchAll",
+    "lint": "eslint '**/*.js'"
   },
   "keywords": [],
   "author": "",
